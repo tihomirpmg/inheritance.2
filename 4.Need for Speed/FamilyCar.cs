@@ -6,7 +6,7 @@ namespace _4.Need_for_Speed
 {
     class FamilyCar : Car
     {
-        public FamilyCar(int horsePower, double fuel) : base(horsePower, fuel) 
+        public FamilyCar(int horsePower, double fuel) : base(horsePower, fuel)  
         {
             Kilometers = 100;
         }
