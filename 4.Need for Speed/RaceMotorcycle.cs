@@ -6,7 +6,7 @@ namespace _4.Need_for_Speed
 {
     class RaceMotorcycle : Motorcycle
     {
-        public RaceMotorcycle(int horsePower, double fuel) : base(horsePower, fuel)
+        public RaceMotorcycle(int horsePower, double fuel) : base(horsePower, fuel) 
         { 
             DefaultFuelConsumption = 8.00;
             Kilometers = 100;

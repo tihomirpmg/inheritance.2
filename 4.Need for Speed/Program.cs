@@ -16,7 +16,7 @@ namespace _4.Need_for_Speed
 
                 try
                 {
-                    var type = Console.ReadLine().Split(' ');
+                    var type = Console.ReadLine().Split(' '); 
                     switch (info)
                     {
                         case "FamilyCar":

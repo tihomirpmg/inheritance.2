@@ -57,7 +57,7 @@ namespace _4.Need_for_Speed
             HorsePower = horsePower;
             Fuel = fuel;
         }
-
+         
         public override string ToString()
         {
             var sb = new StringBuilder();

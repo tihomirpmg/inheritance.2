@@ -8,7 +8,7 @@ namespace _4.Need_for_Speed
     {
         public SportCar(int horsePower, double fuel) : base(horsePower, fuel)
         {
-            DefaultFuelConsumption = 10.00;
+            DefaultFuelConsumption = 10.00; 
             Kilometers = 100;
         }
     }
