@@ -64,10 +64,5 @@ namespace _4.Need_for_Speed
             sb.AppendLine($"Horse power:{this.horsePower} Fuel:{this.fuel} FuelLeft:{fuel-(defaultFuelConsumption*kilometers)/100} DefFuelCons:{this.defaultFuelConsumption} Distance:{this.kilometers}");
             return sb.ToString();
         }
-
-        /*protected virtual void Drive(double kilometers)
-        {
-            double drive = fuel * kilometers;
-        }*/
     }
 }
