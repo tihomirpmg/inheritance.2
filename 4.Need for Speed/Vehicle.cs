@@ -57,17 +57,12 @@ namespace _4.Need_for_Speed
             HorsePower = horsePower;
             Fuel = fuel;
         }
-         
+          
         public override string ToString()
         {
             var sb = new StringBuilder();
             sb.AppendLine($"Horse power:{this.horsePower} Fuel:{this.fuel} FuelLeft:{fuel-(defaultFuelConsumption*kilometers)/100} DefFuelCons:{this.defaultFuelConsumption} Distance:{this.kilometers}");
             return sb.ToString();
         }
-
-        /*protected virtual void Drive(double kilometers)
-        {
-            double drive = fuel * kilometers;
-        }*/
     }
 }

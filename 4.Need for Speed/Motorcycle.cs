@@ -6,7 +6,7 @@ namespace _4.Need_for_Speed
 {
     class Motorcycle : Vehicle
     {
-        public Motorcycle(int horsePower, double fuel) : base(horsePower, fuel) 
+        public Motorcycle(int horsePower, double fuel) : base(horsePower, fuel)  
         {
             
         }
